@@ -14,7 +14,7 @@ pipeline{
                           sh 'chmod +x gradlew'
                            sh './gradlew sonarqube'
                          }
-
+// test webhook
                     // timeout(time: 1, unit: 'HOURS') {
                     //   def qg = waitForQualityGate()
                     //   if (qg.status != 'OK') {
